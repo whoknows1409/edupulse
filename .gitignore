@@ -66,6 +66,9 @@ yarn-error.log*
 !.env.example
 !.env.template
 
+# Kubernetes secrets (keep local only)
+k8s/secret.yaml
+
 # vercel
 .vercel
 

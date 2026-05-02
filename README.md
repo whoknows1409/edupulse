@@ -90,6 +90,25 @@ Required Jenkins environment variables:
 
 Prometheus scrapes `/api/metrics` from the application service. Grafana is pre-provisioned with a starter dashboard in [monitoring/grafana/dashboards/edupulse.json](monitoring/grafana/dashboards/edupulse.json).
 
+## Kubernetes Secret (Local Only)
+
+The live Kubernetes secret file is kept out of version control. Create it locally at [k8s/secret.yaml](k8s/secret.yaml) using the following example and replace all placeholder values:
+
+```yaml
+apiVersion: v1
+kind: Secret
+metadata:
+	name: edupulse-secrets
+	namespace: edupulse
+type: Opaque
+stringData:
+	DATABASE_URL: "postgresql://USER:PASSWORD@edupulse-postgres:5432/edupulse?schema=public"
+	NEXTAUTH_SECRET: "REPLACE_WITH_STRONG_RANDOM"
+	POSTGRES_USER: "edupulse"
+	POSTGRES_PASSWORD: "REPLACE_WITH_STRONG_PASSWORD"
+	POSTGRES_DB: "edupulse"
+```
+
 ## Demo Checklist (Minikube)
 
 1. Start Minikube:
