@@ -1,0 +1,38 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: edupulse
+  namespace: edupulse
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: edupulse
+  template:
+    metadata:
+      labels:
+        app: edupulse
+    spec:
+      containers:
+        - name: edupulse
+          image: REPLACE_IMAGE
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 3000
+          envFrom:
+            - configMapRef:
+                name: edupulse-config
+            - secretRef:
+                name: edupulse-secrets
+          readinessProbe:
+            httpGet:
+              path: /
+              port: 3000
+            initialDelaySeconds: 5
+            periodSeconds: 10
+          livenessProbe:
+            httpGet:
+              path: /
+              port: 3000
+            initialDelaySeconds: 15
+            periodSeconds: 20

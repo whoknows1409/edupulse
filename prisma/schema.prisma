@@ -1,0 +1,121 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+enum Role {
+  ADMIN
+  STUDENT
+}
+
+enum AttendanceStatus {
+  PRESENT
+  ABSENT
+  EXCUSED
+}
+
+enum StudentStatus {
+  ACTIVE
+  INACTIVE
+}
+
+model User {
+  id           String   @id @default(cuid())
+  email        String   @unique
+  name         String
+  passwordHash String
+  role         Role
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+  student      Student?
+}
+
+model Classroom {
+  id        String   @id @default(cuid())
+  name      String
+  section   String?
+  year      Int
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  students  Student[]
+  offerings SubjectOffering[]
+
+  @@unique([name, section, year])
+}
+
+model Student {
+  id             String        @id @default(cuid())
+  userId         String        @unique
+  studentId      String        @unique
+  enrollmentYear Int
+  status         StudentStatus @default(ACTIVE)
+  classroomId    String
+  user           User          @relation(fields: [userId], references: [id], onDelete: Cascade)
+  classroom      Classroom     @relation(fields: [classroomId], references: [id])
+  results        Result[]
+  attendance     Attendance[]
+}
+
+model Subject {
+  id        String            @id @default(cuid())
+  code      String            @unique
+  name      String
+  credits   Int               @default(3)
+  offerings SubjectOffering[]
+}
+
+model Term {
+  id        String            @id @default(cuid())
+  name      String            @unique
+  startDate DateTime
+  endDate   DateTime
+  isActive  Boolean           @default(false)
+  offerings SubjectOffering[]
+}
+
+model SubjectOffering {
+  id          String      @id @default(cuid())
+  subjectId   String
+  classroomId String
+  termId      String
+  subject     Subject     @relation(fields: [subjectId], references: [id])
+  classroom   Classroom   @relation(fields: [classroomId], references: [id])
+  term        Term        @relation(fields: [termId], references: [id])
+  results     Result[]
+  attendance  Attendance[]
+
+  @@unique([subjectId, classroomId, termId])
+}
+
+model Result {
+  id          String          @id @default(cuid())
+  studentId   String
+  offeringId  String
+  score       Float
+  maxScore    Float
+  gradePoint  Float
+  letterGrade String
+  createdAt   DateTime        @default(now())
+  updatedAt   DateTime        @updatedAt
+  student     Student         @relation(fields: [studentId], references: [id])
+  offering    SubjectOffering @relation(fields: [offeringId], references: [id])
+
+  @@unique([studentId, offeringId])
+}
+
+model Attendance {
+  id         String           @id @default(cuid())
+  studentId  String
+  offeringId String
+  date       DateTime
+  status     AttendanceStatus @default(PRESENT)
+  createdAt  DateTime         @default(now())
+  student    Student          @relation(fields: [studentId], references: [id])
+  offering   SubjectOffering  @relation(fields: [offeringId], references: [id])
+
+  @@unique([studentId, offeringId, date])
+  @@index([date])
+}

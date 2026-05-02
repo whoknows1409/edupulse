@@ -1,0 +1,35 @@
+{
+  "id": null,
+  "uid": "edupulse-overview",
+  "title": "EduPulse Overview",
+  "timezone": "browser",
+  "schemaVersion": 38,
+  "version": 1,
+  "refresh": "10s",
+  "panels": [
+    {
+      "type": "timeseries",
+      "title": "HTTP process CPU time",
+      "gridPos": { "x": 0, "y": 0, "w": 12, "h": 8 },
+      "datasource": "Prometheus",
+      "targets": [
+        {
+          "expr": "rate(edupulse_process_cpu_user_seconds_total[5m])",
+          "legendFormat": "CPU user seconds"
+        }
+      ]
+    },
+    {
+      "type": "timeseries",
+      "title": "Memory usage",
+      "gridPos": { "x": 12, "y": 0, "w": 12, "h": 8 },
+      "datasource": "Prometheus",
+      "targets": [
+        {
+          "expr": "edupulse_process_resident_memory_bytes",
+          "legendFormat": "Resident memory"
+        }
+      ]
+    }
+  ]
+}

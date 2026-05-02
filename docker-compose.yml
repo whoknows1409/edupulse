@@ -1,0 +1,59 @@
+version: "3.9"
+
+services:
+  db:
+    image: postgres:16
+    container_name: edupulse-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: edupulse
+      POSTGRES_PASSWORD: edupulse
+      POSTGRES_DB: edupulse
+    ports:
+      - "5433:5432"
+    volumes:
+      - db-data:/var/lib/postgresql/data
+
+  app:
+    build: .
+    container_name: edupulse-app
+    restart: unless-stopped
+    depends_on:
+      - db
+    ports:
+      - "3000:3000"
+    environment:
+      DATABASE_URL: "postgresql://edupulse:edupulse@db:5432/edupulse?schema=public"
+      NEXTAUTH_URL: "http://localhost:3000"
+      NEXTAUTH_SECRET: "replace-with-a-secure-random-string"
+      ATTENDANCE_LOW_THRESHOLD: "75"
+      GPA_SCALE: "90:4.0:A,85:3.7:A-,80:3.3:B+,75:3.0:B,70:2.7:B-,65:2.3:C+,60:2.0:C,50:1.0:D,0:0:F"
+
+  prometheus:
+    image: prom/prometheus:v2.52.0
+    container_name: edupulse-prometheus
+    restart: unless-stopped
+    depends_on:
+      - app
+    volumes:
+      - ./monitoring/prometheus.yml:/etc/prometheus/prometheus.yml
+    ports:
+      - "9090:9090"
+
+  grafana:
+    image: grafana/grafana:11.1.0
+    container_name: edupulse-grafana
+    restart: unless-stopped
+    depends_on:
+      - prometheus
+    environment:
+      GF_SECURITY_ADMIN_USER: admin
+      GF_SECURITY_ADMIN_PASSWORD: admin
+    volumes:
+      - ./monitoring/grafana/provisioning:/etc/grafana/provisioning
+      - ./monitoring/grafana/dashboards:/var/lib/grafana/dashboards
+    ports:
+      - "3001:3000"
+
+volumes:
+  db-data:

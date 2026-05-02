@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #f6f1ea;
+  --fg: #0f172a;
+  --card: #ffffff;
+  --muted: #5b6475;
+  --accent: #ff7a18;
+  --accent-2: #0ea5e9;
+  --ink: #1f2937;
+  --border: #e2e8f0;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-sora), "Segoe UI", sans-serif;
+}
+
+.hero-grid {
+  background-image: radial-gradient(
+      circle at 1px 1px,
+      rgba(15, 23, 42, 0.08) 1px,
+      transparent 0
+    ),
+    radial-gradient(circle at 1px 1px, rgba(255, 122, 24, 0.12) 1px, transparent 0);
+  background-size: 26px 26px, 52px 52px;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.fade-up {
+  animation: fade-up 0.7s ease-out forwards;
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
