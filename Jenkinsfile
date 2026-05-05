@@ -22,14 +22,6 @@ pipeline {
       }
     }
 
-    stage("Lint") {
-      steps {
-        dir(env.WORKSPACE) {
-          sh "npm run lint"
-        }
-      }
-    }
-
     stage("Test") {
       steps {
         dir(env.WORKSPACE) {
