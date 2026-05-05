@@ -5,6 +5,6 @@ metadata:
   namespace: edupulse
 data:
   NODE_ENV: "production"
-  NEXTAUTH_URL: "http://localhost:3000"
+  NEXTAUTH_URL: "http://YOUR_DOMAIN_OR_IP"
   ATTENDANCE_LOW_THRESHOLD: "75"
   GPA_SCALE: "90:4.0:A,85:3.7:A-,80:3.3:B+,75:3.0:B,70:2.7:B-,65:2.3:C+,60:2.0:C,50:1.0:D,0:0:F"

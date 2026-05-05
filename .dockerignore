@@ -1,0 +1,10 @@
+.git
+.next
+node_modules
+npm-debug.log
+yarn-error.log
+.env
+.env.*
+.vscode
+.DS_Store
+coverage

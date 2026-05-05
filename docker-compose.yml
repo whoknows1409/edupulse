@@ -29,6 +29,43 @@ services:
       ATTENDANCE_LOW_THRESHOLD: "75"
       GPA_SCALE: "90:4.0:A,85:3.7:A-,80:3.3:B+,75:3.0:B,70:2.7:B-,65:2.3:C+,60:2.0:C,50:1.0:D,0:0:F"
 
+  sonar-db:
+    image: postgres:16
+    container_name: edupulse-sonar-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: sonar
+      POSTGRES_PASSWORD: sonar
+      POSTGRES_DB: sonarqube
+    volumes:
+      - sonar-db-data:/var/lib/postgresql/data
+
+  sonarqube:
+    image: sonarqube:10.6-community
+    container_name: edupulse-sonarqube
+    restart: unless-stopped
+    depends_on:
+      - sonar-db
+    ports:
+      - "9000:9000"
+    environment:
+      SONAR_JDBC_URL: "jdbc:postgresql://sonar-db:5432/sonarqube"
+      SONAR_JDBC_USERNAME: "sonar"
+      SONAR_JDBC_PASSWORD: "sonar"
+    volumes:
+      - sonarqube-data:/opt/sonarqube/data
+      - sonarqube-extensions:/opt/sonarqube/extensions
+
+  jenkins:
+    build: ./infra/jenkins
+    container_name: edupulse-jenkins
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+      - "50000:50000"
+    volumes:
+      - jenkins-home:/var/jenkins_home
+
   prometheus:
     image: prom/prometheus:v2.52.0
     container_name: edupulse-prometheus
@@ -57,3 +94,7 @@ services:
 
 volumes:
   db-data:
+  sonar-db-data:
+  sonarqube-data:
+  sonarqube-extensions:
+  jenkins-home:

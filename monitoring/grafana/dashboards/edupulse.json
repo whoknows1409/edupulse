@@ -9,7 +9,7 @@
   "panels": [
     {
       "type": "timeseries",
-      "title": "HTTP process CPU time",
+      "title": "Process CPU time",
       "gridPos": { "x": 0, "y": 0, "w": 12, "h": 8 },
       "datasource": "Prometheus",
       "targets": [
@@ -21,7 +21,7 @@
     },
     {
       "type": "timeseries",
-      "title": "Memory usage",
+      "title": "Process memory",
       "gridPos": { "x": 12, "y": 0, "w": 12, "h": 8 },
       "datasource": "Prometheus",
       "targets": [
