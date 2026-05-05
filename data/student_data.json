@@ -1,0 +1,3151 @@
+{
+  "classroom": {
+    "name": "BTech Engineering Composite",
+    "section": "A",
+    "year": 2026
+  },
+  "term": {
+    "name": "Spring 2026",
+    "startDate": "2026-01-08",
+    "endDate": "2026-05-12",
+    "isActive": true
+  },
+  "subjects": [
+    {
+      "code": "CS301",
+      "name": "Algorithms",
+      "credits": 4
+    },
+    {
+      "code": "CS302",
+      "name": "Database Management",
+      "credits": 4
+    },
+    {
+      "code": "CE303",
+      "name": "Computer Networks",
+      "credits": 3
+    },
+    {
+      "code": "EXTC304",
+      "name": "Signal Processing",
+      "credits": 4
+    },
+    {
+      "code": "EXTC305",
+      "name": "Embedded Systems",
+      "credits": 3
+    }
+  ],
+  "students": [
+    {
+      "name": "Aarav Sharma",
+      "email": "aarav.0@edupulse.dev",
+      "studentId": "STU-1001",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Aditi Rao",
+      "email": "aditi.1@edupulse.dev",
+      "studentId": "STU-1002",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Arjun Nair",
+      "email": "arjun.2@edupulse.dev",
+      "studentId": "STU-1003",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Ananya Iyer",
+      "email": "ananya.3@edupulse.dev",
+      "studentId": "STU-1004",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Ishaan Malhotra",
+      "email": "ishaan.4@edupulse.dev",
+      "studentId": "STU-1005",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Saanvi Kulkarni",
+      "email": "saanvi.5@edupulse.dev",
+      "studentId": "STU-1006",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Rohan Deshmukh",
+      "email": "rohan.6@edupulse.dev",
+      "studentId": "STU-1007",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Kiara Joshi",
+      "email": "kiara.7@edupulse.dev",
+      "studentId": "STU-1008",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Vivaan Mehta",
+      "email": "vivaan.8@edupulse.dev",
+      "studentId": "STU-1009",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Zoya Khan",
+      "email": "zoya.9@edupulse.dev",
+      "studentId": "STU-1010",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Kabir Gupta",
+      "email": "kabir.10@edupulse.dev",
+      "studentId": "STU-1011",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Myra Singh",
+      "email": "myra.11@edupulse.dev",
+      "studentId": "STU-1012",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Aryan Verma",
+      "email": "aryan.12@edupulse.dev",
+      "studentId": "STU-1013",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Diya Shetty",
+      "email": "diya.13@edupulse.dev",
+      "studentId": "STU-1014",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Shaurya Patil",
+      "email": "shaurya.14@edupulse.dev",
+      "studentId": "STU-1015",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Avni Mishra",
+      "email": "avni.15@edupulse.dev",
+      "studentId": "STU-1016",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Reyansh Reddy",
+      "email": "reyansh.16@edupulse.dev",
+      "studentId": "STU-1017",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Sana Bajaj",
+      "email": "sana.17@edupulse.dev",
+      "studentId": "STU-1018",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Ayaan Saxena",
+      "email": "ayaan.18@edupulse.dev",
+      "studentId": "STU-1019",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Tanya Kapoor",
+      "email": "tanya.19@edupulse.dev",
+      "studentId": "STU-1020",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Aarav Sharma",
+      "email": "aarav.20@edupulse.dev",
+      "studentId": "STU-1021",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Aditi Rao",
+      "email": "aditi.21@edupulse.dev",
+      "studentId": "STU-1022",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Arjun Nair",
+      "email": "arjun.22@edupulse.dev",
+      "studentId": "STU-1023",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Ananya Iyer",
+      "email": "ananya.23@edupulse.dev",
+      "studentId": "STU-1024",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Ishaan Malhotra",
+      "email": "ishaan.24@edupulse.dev",
+      "studentId": "STU-1025",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Saanvi Kulkarni",
+      "email": "saanvi.25@edupulse.dev",
+      "studentId": "STU-1026",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Rohan Deshmukh",
+      "email": "rohan.26@edupulse.dev",
+      "studentId": "STU-1027",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Kiara Joshi",
+      "email": "kiara.27@edupulse.dev",
+      "studentId": "STU-1028",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Vivaan Mehta",
+      "email": "vivaan.28@edupulse.dev",
+      "studentId": "STU-1029",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Zoya Khan",
+      "email": "zoya.29@edupulse.dev",
+      "studentId": "STU-1030",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Kabir Gupta",
+      "email": "kabir.30@edupulse.dev",
+      "studentId": "STU-1031",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Myra Singh",
+      "email": "myra.31@edupulse.dev",
+      "studentId": "STU-1032",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Aryan Verma",
+      "email": "aryan.32@edupulse.dev",
+      "studentId": "STU-1033",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Diya Shetty",
+      "email": "diya.33@edupulse.dev",
+      "studentId": "STU-1034",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Shaurya Patil",
+      "email": "shaurya.34@edupulse.dev",
+      "studentId": "STU-1035",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Avni Mishra",
+      "email": "avni.35@edupulse.dev",
+      "studentId": "STU-1036",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Reyansh Reddy",
+      "email": "reyansh.36@edupulse.dev",
+      "studentId": "STU-1037",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Sana Bajaj",
+      "email": "sana.37@edupulse.dev",
+      "studentId": "STU-1038",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Ayaan Saxena",
+      "email": "ayaan.38@edupulse.dev",
+      "studentId": "STU-1039",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Tanya Kapoor",
+      "email": "tanya.39@edupulse.dev",
+      "studentId": "STU-1040",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Aarav Sharma",
+      "email": "aarav.40@edupulse.dev",
+      "studentId": "STU-1041",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Aditi Rao",
+      "email": "aditi.41@edupulse.dev",
+      "studentId": "STU-1042",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Arjun Nair",
+      "email": "arjun.42@edupulse.dev",
+      "studentId": "STU-1043",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Ananya Iyer",
+      "email": "ananya.43@edupulse.dev",
+      "studentId": "STU-1044",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Ishaan Malhotra",
+      "email": "ishaan.44@edupulse.dev",
+      "studentId": "STU-1045",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Saanvi Kulkarni",
+      "email": "saanvi.45@edupulse.dev",
+      "studentId": "STU-1046",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Rohan Deshmukh",
+      "email": "rohan.46@edupulse.dev",
+      "studentId": "STU-1047",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Kiara Joshi",
+      "email": "kiara.47@edupulse.dev",
+      "studentId": "STU-1048",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Vivaan Mehta",
+      "email": "vivaan.48@edupulse.dev",
+      "studentId": "STU-1049",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Zoya Khan",
+      "email": "zoya.49@edupulse.dev",
+      "studentId": "STU-1050",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Kabir Gupta",
+      "email": "kabir.50@edupulse.dev",
+      "studentId": "STU-1051",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Myra Singh",
+      "email": "myra.51@edupulse.dev",
+      "studentId": "STU-1052",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Aryan Verma",
+      "email": "aryan.52@edupulse.dev",
+      "studentId": "STU-1053",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Diya Shetty",
+      "email": "diya.53@edupulse.dev",
+      "studentId": "STU-1054",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Shaurya Patil",
+      "email": "shaurya.54@edupulse.dev",
+      "studentId": "STU-1055",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Avni Mishra",
+      "email": "avni.55@edupulse.dev",
+      "studentId": "STU-1056",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Reyansh Reddy",
+      "email": "reyansh.56@edupulse.dev",
+      "studentId": "STU-1057",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Sana Bajaj",
+      "email": "sana.57@edupulse.dev",
+      "studentId": "STU-1058",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Ayaan Saxena",
+      "email": "ayaan.58@edupulse.dev",
+      "studentId": "STU-1059",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Tanya Kapoor",
+      "email": "tanya.59@edupulse.dev",
+      "studentId": "STU-1060",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Aarav Sharma",
+      "email": "aarav.60@edupulse.dev",
+      "studentId": "STU-1061",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Aditi Rao",
+      "email": "aditi.61@edupulse.dev",
+      "studentId": "STU-1062",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Arjun Nair",
+      "email": "arjun.62@edupulse.dev",
+      "studentId": "STU-1063",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Ananya Iyer",
+      "email": "ananya.63@edupulse.dev",
+      "studentId": "STU-1064",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Ishaan Malhotra",
+      "email": "ishaan.64@edupulse.dev",
+      "studentId": "STU-1065",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Saanvi Kulkarni",
+      "email": "saanvi.65@edupulse.dev",
+      "studentId": "STU-1066",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Rohan Deshmukh",
+      "email": "rohan.66@edupulse.dev",
+      "studentId": "STU-1067",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Kiara Joshi",
+      "email": "kiara.67@edupulse.dev",
+      "studentId": "STU-1068",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Vivaan Mehta",
+      "email": "vivaan.68@edupulse.dev",
+      "studentId": "STU-1069",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Zoya Khan",
+      "email": "zoya.69@edupulse.dev",
+      "studentId": "STU-1070",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Kabir Gupta",
+      "email": "kabir.70@edupulse.dev",
+      "studentId": "STU-1071",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Myra Singh",
+      "email": "myra.71@edupulse.dev",
+      "studentId": "STU-1072",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Aryan Verma",
+      "email": "aryan.72@edupulse.dev",
+      "studentId": "STU-1073",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Diya Shetty",
+      "email": "diya.73@edupulse.dev",
+      "studentId": "STU-1074",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Shaurya Patil",
+      "email": "shaurya.74@edupulse.dev",
+      "studentId": "STU-1075",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Avni Mishra",
+      "email": "avni.75@edupulse.dev",
+      "studentId": "STU-1076",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Reyansh Reddy",
+      "email": "reyansh.76@edupulse.dev",
+      "studentId": "STU-1077",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Sana Bajaj",
+      "email": "sana.77@edupulse.dev",
+      "studentId": "STU-1078",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Ayaan Saxena",
+      "email": "ayaan.78@edupulse.dev",
+      "studentId": "STU-1079",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Tanya Kapoor",
+      "email": "tanya.79@edupulse.dev",
+      "studentId": "STU-1080",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Aarav Sharma",
+      "email": "aarav.80@edupulse.dev",
+      "studentId": "STU-1081",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Aditi Rao",
+      "email": "aditi.81@edupulse.dev",
+      "studentId": "STU-1082",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Arjun Nair",
+      "email": "arjun.82@edupulse.dev",
+      "studentId": "STU-1083",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Ananya Iyer",
+      "email": "ananya.83@edupulse.dev",
+      "studentId": "STU-1084",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Ishaan Malhotra",
+      "email": "ishaan.84@edupulse.dev",
+      "studentId": "STU-1085",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Saanvi Kulkarni",
+      "email": "saanvi.85@edupulse.dev",
+      "studentId": "STU-1086",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Rohan Deshmukh",
+      "email": "rohan.86@edupulse.dev",
+      "studentId": "STU-1087",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Kiara Joshi",
+      "email": "kiara.87@edupulse.dev",
+      "studentId": "STU-1088",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Vivaan Mehta",
+      "email": "vivaan.88@edupulse.dev",
+      "studentId": "STU-1089",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Zoya Khan",
+      "email": "zoya.89@edupulse.dev",
+      "studentId": "STU-1090",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Kabir Gupta",
+      "email": "kabir.90@edupulse.dev",
+      "studentId": "STU-1091",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Myra Singh",
+      "email": "myra.91@edupulse.dev",
+      "studentId": "STU-1092",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Aryan Verma",
+      "email": "aryan.92@edupulse.dev",
+      "studentId": "STU-1093",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Diya Shetty",
+      "email": "diya.93@edupulse.dev",
+      "studentId": "STU-1094",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Shaurya Patil",
+      "email": "shaurya.94@edupulse.dev",
+      "studentId": "STU-1095",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Avni Mishra",
+      "email": "avni.95@edupulse.dev",
+      "studentId": "STU-1096",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Reyansh Reddy",
+      "email": "reyansh.96@edupulse.dev",
+      "studentId": "STU-1097",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Sana Bajaj",
+      "email": "sana.97@edupulse.dev",
+      "studentId": "STU-1098",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Ayaan Saxena",
+      "email": "ayaan.98@edupulse.dev",
+      "studentId": "STU-1099",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    },
+    {
+      "name": "Tanya Kapoor",
+      "email": "tanya.99@edupulse.dev",
+      "studentId": "STU-1100",
+      "enrollmentYear": 2024,
+      "password": "Student@123"
+    }
+  ],
+  "admin": {
+    "name": "Mumbai Admin",
+    "email": "admin@edupulse.dev",
+    "password": "Admin@123"
+  },
+  "results": [
+    {
+      "studentId": "STU-1001",
+      "subjectCode": "CS301",
+      "score": 89,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1001",
+      "subjectCode": "CS302",
+      "score": 84,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1002",
+      "subjectCode": "CS302",
+      "score": 68,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1002",
+      "subjectCode": "CS301",
+      "score": 93,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1003",
+      "subjectCode": "CS302",
+      "score": 69,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1003",
+      "subjectCode": "CE303",
+      "score": 96,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1004",
+      "subjectCode": "EXTC304",
+      "score": 88,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1004",
+      "subjectCode": "CE303",
+      "score": 86,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1005",
+      "subjectCode": "CS302",
+      "score": 83,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1005",
+      "subjectCode": "EXTC304",
+      "score": 86,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1006",
+      "subjectCode": "CS301",
+      "score": 80,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1006",
+      "subjectCode": "CS302",
+      "score": 94,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1007",
+      "subjectCode": "CS301",
+      "score": 65,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1007",
+      "subjectCode": "CS302",
+      "score": 91,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1008",
+      "subjectCode": "EXTC305",
+      "score": 82,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1008",
+      "subjectCode": "CE303",
+      "score": 76,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1009",
+      "subjectCode": "CE303",
+      "score": 82,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1009",
+      "subjectCode": "CS301",
+      "score": 66,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1010",
+      "subjectCode": "EXTC305",
+      "score": 98,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1010",
+      "subjectCode": "EXTC304",
+      "score": 74,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1011",
+      "subjectCode": "CE303",
+      "score": 82,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1011",
+      "subjectCode": "EXTC305",
+      "score": 97,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1012",
+      "subjectCode": "EXTC305",
+      "score": 84,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1012",
+      "subjectCode": "CS302",
+      "score": 74,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1013",
+      "subjectCode": "CE303",
+      "score": 63,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1013",
+      "subjectCode": "CS301",
+      "score": 65,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1014",
+      "subjectCode": "CE303",
+      "score": 70,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1014",
+      "subjectCode": "EXTC304",
+      "score": 96,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1015",
+      "subjectCode": "EXTC305",
+      "score": 96,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1015",
+      "subjectCode": "CE303",
+      "score": 62,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1016",
+      "subjectCode": "EXTC304",
+      "score": 74,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1016",
+      "subjectCode": "CS301",
+      "score": 76,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1017",
+      "subjectCode": "EXTC305",
+      "score": 98,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1017",
+      "subjectCode": "CE303",
+      "score": 79,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1018",
+      "subjectCode": "CS302",
+      "score": 75,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1018",
+      "subjectCode": "EXTC305",
+      "score": 91,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1019",
+      "subjectCode": "EXTC304",
+      "score": 97,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1019",
+      "subjectCode": "CS301",
+      "score": 68,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1020",
+      "subjectCode": "EXTC304",
+      "score": 80,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1020",
+      "subjectCode": "EXTC305",
+      "score": 86,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1021",
+      "subjectCode": "EXTC305",
+      "score": 74,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1021",
+      "subjectCode": "CS301",
+      "score": 73,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1022",
+      "subjectCode": "CE303",
+      "score": 91,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1022",
+      "subjectCode": "EXTC305",
+      "score": 68,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1023",
+      "subjectCode": "CE303",
+      "score": 89,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1023",
+      "subjectCode": "CS302",
+      "score": 83,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1024",
+      "subjectCode": "CS301",
+      "score": 68,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1024",
+      "subjectCode": "EXTC305",
+      "score": 97,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1025",
+      "subjectCode": "CE303",
+      "score": 65,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1025",
+      "subjectCode": "EXTC305",
+      "score": 65,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1026",
+      "subjectCode": "CE303",
+      "score": 75,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1026",
+      "subjectCode": "CS301",
+      "score": 78,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1027",
+      "subjectCode": "CE303",
+      "score": 86,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1027",
+      "subjectCode": "CS301",
+      "score": 64,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1028",
+      "subjectCode": "CS301",
+      "score": 66,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1028",
+      "subjectCode": "EXTC304",
+      "score": 60,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1029",
+      "subjectCode": "EXTC305",
+      "score": 92,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1029",
+      "subjectCode": "CE303",
+      "score": 65,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1030",
+      "subjectCode": "CE303",
+      "score": 76,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1030",
+      "subjectCode": "CS302",
+      "score": 71,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1031",
+      "subjectCode": "CE303",
+      "score": 94,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1031",
+      "subjectCode": "EXTC304",
+      "score": 89,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1032",
+      "subjectCode": "EXTC304",
+      "score": 78,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1032",
+      "subjectCode": "CS302",
+      "score": 83,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1033",
+      "subjectCode": "CS301",
+      "score": 85,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1033",
+      "subjectCode": "EXTC304",
+      "score": 94,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1034",
+      "subjectCode": "CE303",
+      "score": 78,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1034",
+      "subjectCode": "EXTC304",
+      "score": 85,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1035",
+      "subjectCode": "EXTC304",
+      "score": 72,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1035",
+      "subjectCode": "EXTC305",
+      "score": 63,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1036",
+      "subjectCode": "CS302",
+      "score": 93,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1036",
+      "subjectCode": "CS301",
+      "score": 65,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1037",
+      "subjectCode": "EXTC305",
+      "score": 94,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1037",
+      "subjectCode": "CS302",
+      "score": 98,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1038",
+      "subjectCode": "EXTC305",
+      "score": 61,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1038",
+      "subjectCode": "CS301",
+      "score": 65,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1039",
+      "subjectCode": "EXTC305",
+      "score": 70,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1039",
+      "subjectCode": "EXTC304",
+      "score": 61,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1040",
+      "subjectCode": "CE303",
+      "score": 93,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1040",
+      "subjectCode": "CS301",
+      "score": 65,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1041",
+      "subjectCode": "EXTC305",
+      "score": 69,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1041",
+      "subjectCode": "CS302",
+      "score": 94,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1042",
+      "subjectCode": "CS302",
+      "score": 75,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1042",
+      "subjectCode": "EXTC305",
+      "score": 87,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1043",
+      "subjectCode": "CE303",
+      "score": 75,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1043",
+      "subjectCode": "EXTC305",
+      "score": 87,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1044",
+      "subjectCode": "EXTC305",
+      "score": 71,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1044",
+      "subjectCode": "CS302",
+      "score": 90,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1045",
+      "subjectCode": "CE303",
+      "score": 75,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1045",
+      "subjectCode": "CS301",
+      "score": 75,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1046",
+      "subjectCode": "CS301",
+      "score": 93,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1046",
+      "subjectCode": "CE303",
+      "score": 72,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1047",
+      "subjectCode": "CS302",
+      "score": 63,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1047",
+      "subjectCode": "EXTC305",
+      "score": 87,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1048",
+      "subjectCode": "CS302",
+      "score": 96,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1048",
+      "subjectCode": "EXTC304",
+      "score": 68,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1049",
+      "subjectCode": "EXTC304",
+      "score": 73,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1049",
+      "subjectCode": "CS301",
+      "score": 71,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1050",
+      "subjectCode": "CS301",
+      "score": 63,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1050",
+      "subjectCode": "CE303",
+      "score": 95,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1051",
+      "subjectCode": "EXTC305",
+      "score": 84,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1051",
+      "subjectCode": "CE303",
+      "score": 81,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1052",
+      "subjectCode": "CE303",
+      "score": 84,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1052",
+      "subjectCode": "CS301",
+      "score": 67,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1053",
+      "subjectCode": "EXTC305",
+      "score": 91,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1053",
+      "subjectCode": "CS302",
+      "score": 98,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1054",
+      "subjectCode": "CS302",
+      "score": 85,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1054",
+      "subjectCode": "CS301",
+      "score": 91,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1055",
+      "subjectCode": "EXTC304",
+      "score": 97,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1055",
+      "subjectCode": "CS302",
+      "score": 64,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1056",
+      "subjectCode": "EXTC305",
+      "score": 64,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1056",
+      "subjectCode": "CE303",
+      "score": 86,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1057",
+      "subjectCode": "EXTC304",
+      "score": 64,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1057",
+      "subjectCode": "EXTC305",
+      "score": 77,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1058",
+      "subjectCode": "EXTC304",
+      "score": 91,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1058",
+      "subjectCode": "CS301",
+      "score": 74,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1059",
+      "subjectCode": "EXTC304",
+      "score": 86,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1059",
+      "subjectCode": "CE303",
+      "score": 94,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1060",
+      "subjectCode": "CE303",
+      "score": 95,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1060",
+      "subjectCode": "EXTC304",
+      "score": 63,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1061",
+      "subjectCode": "CS302",
+      "score": 87,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1061",
+      "subjectCode": "CE303",
+      "score": 77,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1062",
+      "subjectCode": "CS302",
+      "score": 63,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1062",
+      "subjectCode": "EXTC304",
+      "score": 90,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1063",
+      "subjectCode": "EXTC305",
+      "score": 73,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1063",
+      "subjectCode": "CS302",
+      "score": 84,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1064",
+      "subjectCode": "EXTC304",
+      "score": 70,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1064",
+      "subjectCode": "CE303",
+      "score": 87,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1065",
+      "subjectCode": "CS302",
+      "score": 65,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1065",
+      "subjectCode": "EXTC305",
+      "score": 79,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1066",
+      "subjectCode": "CS302",
+      "score": 73,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1066",
+      "subjectCode": "CE303",
+      "score": 60,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1067",
+      "subjectCode": "CS302",
+      "score": 95,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1067",
+      "subjectCode": "CS301",
+      "score": 64,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1068",
+      "subjectCode": "CE303",
+      "score": 76,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1068",
+      "subjectCode": "EXTC305",
+      "score": 65,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1069",
+      "subjectCode": "EXTC304",
+      "score": 78,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1069",
+      "subjectCode": "EXTC305",
+      "score": 62,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1070",
+      "subjectCode": "CE303",
+      "score": 71,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1070",
+      "subjectCode": "CS301",
+      "score": 88,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1071",
+      "subjectCode": "CS301",
+      "score": 61,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1071",
+      "subjectCode": "CS302",
+      "score": 61,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1072",
+      "subjectCode": "CE303",
+      "score": 64,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1072",
+      "subjectCode": "CS301",
+      "score": 70,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1073",
+      "subjectCode": "CE303",
+      "score": 85,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1073",
+      "subjectCode": "CS302",
+      "score": 98,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1074",
+      "subjectCode": "CS302",
+      "score": 82,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1074",
+      "subjectCode": "EXTC305",
+      "score": 84,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1075",
+      "subjectCode": "CS301",
+      "score": 79,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1075",
+      "subjectCode": "CE303",
+      "score": 60,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1076",
+      "subjectCode": "EXTC304",
+      "score": 72,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1076",
+      "subjectCode": "CE303",
+      "score": 67,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1077",
+      "subjectCode": "EXTC304",
+      "score": 79,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1077",
+      "subjectCode": "CS302",
+      "score": 71,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1078",
+      "subjectCode": "CS301",
+      "score": 79,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1078",
+      "subjectCode": "CS302",
+      "score": 72,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1079",
+      "subjectCode": "CS302",
+      "score": 64,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1079",
+      "subjectCode": "EXTC304",
+      "score": 95,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1080",
+      "subjectCode": "CE303",
+      "score": 91,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1080",
+      "subjectCode": "EXTC305",
+      "score": 69,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1081",
+      "subjectCode": "CE303",
+      "score": 80,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1081",
+      "subjectCode": "EXTC304",
+      "score": 89,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1082",
+      "subjectCode": "CS301",
+      "score": 63,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1082",
+      "subjectCode": "EXTC304",
+      "score": 95,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1083",
+      "subjectCode": "CS302",
+      "score": 95,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1083",
+      "subjectCode": "EXTC304",
+      "score": 71,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1084",
+      "subjectCode": "CS302",
+      "score": 93,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1084",
+      "subjectCode": "EXTC304",
+      "score": 94,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1085",
+      "subjectCode": "EXTC305",
+      "score": 67,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1085",
+      "subjectCode": "EXTC304",
+      "score": 92,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1086",
+      "subjectCode": "CS301",
+      "score": 73,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1086",
+      "subjectCode": "CE303",
+      "score": 72,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1087",
+      "subjectCode": "CE303",
+      "score": 97,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1087",
+      "subjectCode": "CS301",
+      "score": 69,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1088",
+      "subjectCode": "EXTC305",
+      "score": 75,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1088",
+      "subjectCode": "CS301",
+      "score": 97,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1089",
+      "subjectCode": "CS302",
+      "score": 73,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1089",
+      "subjectCode": "CE303",
+      "score": 68,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1090",
+      "subjectCode": "EXTC304",
+      "score": 87,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1090",
+      "subjectCode": "EXTC305",
+      "score": 98,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1091",
+      "subjectCode": "CE303",
+      "score": 90,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1091",
+      "subjectCode": "EXTC304",
+      "score": 98,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1092",
+      "subjectCode": "EXTC305",
+      "score": 89,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1092",
+      "subjectCode": "CS301",
+      "score": 60,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1093",
+      "subjectCode": "CE303",
+      "score": 78,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1093",
+      "subjectCode": "EXTC304",
+      "score": 92,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1094",
+      "subjectCode": "CE303",
+      "score": 87,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1094",
+      "subjectCode": "EXTC305",
+      "score": 87,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1095",
+      "subjectCode": "CS302",
+      "score": 63,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1095",
+      "subjectCode": "CE303",
+      "score": 96,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1096",
+      "subjectCode": "EXTC304",
+      "score": 85,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1096",
+      "subjectCode": "CS301",
+      "score": 89,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1097",
+      "subjectCode": "CE303",
+      "score": 87,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1097",
+      "subjectCode": "CS301",
+      "score": 64,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1098",
+      "subjectCode": "EXTC304",
+      "score": 84,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1098",
+      "subjectCode": "EXTC305",
+      "score": 79,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1099",
+      "subjectCode": "EXTC305",
+      "score": 96,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1099",
+      "subjectCode": "CE303",
+      "score": 62,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1100",
+      "subjectCode": "CE303",
+      "score": 64,
+      "maxScore": 100
+    },
+    {
+      "studentId": "STU-1100",
+      "subjectCode": "CS301",
+      "score": 97,
+      "maxScore": 100
+    }
+  ],
+  "attendance": [
+    {
+      "studentId": "STU-1001",
+      "subjectCode": "CS301",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1001",
+      "subjectCode": "CS302",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1002",
+      "subjectCode": "CS302",
+      "date": "2026-04-15",
+      "status": "ABSENT"
+    },
+    {
+      "studentId": "STU-1002",
+      "subjectCode": "CS301",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1003",
+      "subjectCode": "CS302",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1003",
+      "subjectCode": "CE303",
+      "date": "2026-04-15",
+      "status": "ABSENT"
+    },
+    {
+      "studentId": "STU-1004",
+      "subjectCode": "EXTC304",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1004",
+      "subjectCode": "CE303",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1005",
+      "subjectCode": "CS302",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1005",
+      "subjectCode": "EXTC304",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1006",
+      "subjectCode": "CS301",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1006",
+      "subjectCode": "CS302",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1007",
+      "subjectCode": "CS301",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1007",
+      "subjectCode": "CS302",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1008",
+      "subjectCode": "EXTC305",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1008",
+      "subjectCode": "CE303",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1009",
+      "subjectCode": "CE303",
+      "date": "2026-04-15",
+      "status": "ABSENT"
+    },
+    {
+      "studentId": "STU-1009",
+      "subjectCode": "CS301",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1010",
+      "subjectCode": "EXTC305",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1010",
+      "subjectCode": "EXTC304",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1011",
+      "subjectCode": "CE303",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1011",
+      "subjectCode": "EXTC305",
+      "date": "2026-04-15",
+      "status": "ABSENT"
+    },
+    {
+      "studentId": "STU-1012",
+      "subjectCode": "EXTC305",
+      "date": "2026-04-15",
+      "status": "ABSENT"
+    },
+    {
+      "studentId": "STU-1012",
+      "subjectCode": "CS302",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1013",
+      "subjectCode": "CE303",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1013",
+      "subjectCode": "CS301",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1014",
+      "subjectCode": "CE303",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1014",
+      "subjectCode": "EXTC304",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1015",
+      "subjectCode": "EXTC305",
+      "date": "2026-04-15",
+      "status": "ABSENT"
+    },
+    {
+      "studentId": "STU-1015",
+      "subjectCode": "CE303",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1016",
+      "subjectCode": "EXTC304",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1016",
+      "subjectCode": "CS301",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1017",
+      "subjectCode": "EXTC305",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1017",
+      "subjectCode": "CE303",
+      "date": "2026-04-15",
+      "status": "ABSENT"
+    },
+    {
+      "studentId": "STU-1018",
+      "subjectCode": "CS302",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1018",
+      "subjectCode": "EXTC305",
+      "date": "2026-04-15",
+      "status": "ABSENT"
+    },
+    {
+      "studentId": "STU-1019",
+      "subjectCode": "EXTC304",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1019",
+      "subjectCode": "CS301",
+      "date": "2026-04-15",
+      "status": "ABSENT"
+    },
+    {
+      "studentId": "STU-1020",
+      "subjectCode": "EXTC304",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1020",
+      "subjectCode": "EXTC305",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1021",
+      "subjectCode": "EXTC305",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1021",
+      "subjectCode": "CS301",
+      "date": "2026-04-15",
+      "status": "ABSENT"
+    },
+    {
+      "studentId": "STU-1022",
+      "subjectCode": "CE303",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1022",
+      "subjectCode": "EXTC305",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1023",
+      "subjectCode": "CE303",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1023",
+      "subjectCode": "CS302",
+      "date": "2026-04-15",
+      "status": "ABSENT"
+    },
+    {
+      "studentId": "STU-1024",
+      "subjectCode": "CS301",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1024",
+      "subjectCode": "EXTC305",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1025",
+      "subjectCode": "CE303",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1025",
+      "subjectCode": "EXTC305",
+      "date": "2026-04-15",
+      "status": "ABSENT"
+    },
+    {
+      "studentId": "STU-1026",
+      "subjectCode": "CE303",
+      "date": "2026-04-15",
+      "status": "ABSENT"
+    },
+    {
+      "studentId": "STU-1026",
+      "subjectCode": "CS301",
+      "date": "2026-04-15",
+      "status": "ABSENT"
+    },
+    {
+      "studentId": "STU-1027",
+      "subjectCode": "CE303",
+      "date": "2026-04-15",
+      "status": "ABSENT"
+    },
+    {
+      "studentId": "STU-1027",
+      "subjectCode": "CS301",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1028",
+      "subjectCode": "CS301",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1028",
+      "subjectCode": "EXTC304",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1029",
+      "subjectCode": "EXTC305",
+      "date": "2026-04-15",
+      "status": "ABSENT"
+    },
+    {
+      "studentId": "STU-1029",
+      "subjectCode": "CE303",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1030",
+      "subjectCode": "CE303",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1030",
+      "subjectCode": "CS302",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1031",
+      "subjectCode": "CE303",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1031",
+      "subjectCode": "EXTC304",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1032",
+      "subjectCode": "EXTC304",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1032",
+      "subjectCode": "CS302",
+      "date": "2026-04-15",
+      "status": "ABSENT"
+    },
+    {
+      "studentId": "STU-1033",
+      "subjectCode": "CS301",
+      "date": "2026-04-15",
+      "status": "ABSENT"
+    },
+    {
+      "studentId": "STU-1033",
+      "subjectCode": "EXTC304",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1034",
+      "subjectCode": "CE303",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1034",
+      "subjectCode": "EXTC304",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1035",
+      "subjectCode": "EXTC304",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1035",
+      "subjectCode": "EXTC305",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1036",
+      "subjectCode": "CS302",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1036",
+      "subjectCode": "CS301",
+      "date": "2026-04-15",
+      "status": "ABSENT"
+    },
+    {
+      "studentId": "STU-1037",
+      "subjectCode": "EXTC305",
+      "date": "2026-04-15",
+      "status": "ABSENT"
+    },
+    {
+      "studentId": "STU-1037",
+      "subjectCode": "CS302",
+      "date": "2026-04-15",
+      "status": "ABSENT"
+    },
+    {
+      "studentId": "STU-1038",
+      "subjectCode": "EXTC305",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1038",
+      "subjectCode": "CS301",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1039",
+      "subjectCode": "EXTC305",
+      "date": "2026-04-15",
+      "status": "ABSENT"
+    },
+    {
+      "studentId": "STU-1039",
+      "subjectCode": "EXTC304",
+      "date": "2026-04-15",
+      "status": "ABSENT"
+    },
+    {
+      "studentId": "STU-1040",
+      "subjectCode": "CE303",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1040",
+      "subjectCode": "CS301",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1041",
+      "subjectCode": "EXTC305",
+      "date": "2026-04-15",
+      "status": "ABSENT"
+    },
+    {
+      "studentId": "STU-1041",
+      "subjectCode": "CS302",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1042",
+      "subjectCode": "CS302",
+      "date": "2026-04-15",
+      "status": "ABSENT"
+    },
+    {
+      "studentId": "STU-1042",
+      "subjectCode": "EXTC305",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1043",
+      "subjectCode": "CE303",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1043",
+      "subjectCode": "EXTC305",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1044",
+      "subjectCode": "EXTC305",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1044",
+      "subjectCode": "CS302",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1045",
+      "subjectCode": "CE303",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1045",
+      "subjectCode": "CS301",
+      "date": "2026-04-15",
+      "status": "ABSENT"
+    },
+    {
+      "studentId": "STU-1046",
+      "subjectCode": "CS301",
+      "date": "2026-04-15",
+      "status": "ABSENT"
+    },
+    {
+      "studentId": "STU-1046",
+      "subjectCode": "CE303",
+      "date": "2026-04-15",
+      "status": "ABSENT"
+    },
+    {
+      "studentId": "STU-1047",
+      "subjectCode": "CS302",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1047",
+      "subjectCode": "EXTC305",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1048",
+      "subjectCode": "CS302",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1048",
+      "subjectCode": "EXTC304",
+      "date": "2026-04-15",
+      "status": "ABSENT"
+    },
+    {
+      "studentId": "STU-1049",
+      "subjectCode": "EXTC304",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1049",
+      "subjectCode": "CS301",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1050",
+      "subjectCode": "CS301",
+      "date": "2026-04-15",
+      "status": "ABSENT"
+    },
+    {
+      "studentId": "STU-1050",
+      "subjectCode": "CE303",
+      "date": "2026-04-15",
+      "status": "ABSENT"
+    },
+    {
+      "studentId": "STU-1051",
+      "subjectCode": "EXTC305",
+      "date": "2026-04-15",
+      "status": "ABSENT"
+    },
+    {
+      "studentId": "STU-1051",
+      "subjectCode": "CE303",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1052",
+      "subjectCode": "CE303",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1052",
+      "subjectCode": "CS301",
+      "date": "2026-04-15",
+      "status": "ABSENT"
+    },
+    {
+      "studentId": "STU-1053",
+      "subjectCode": "EXTC305",
+      "date": "2026-04-15",
+      "status": "ABSENT"
+    },
+    {
+      "studentId": "STU-1053",
+      "subjectCode": "CS302",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1054",
+      "subjectCode": "CS302",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1054",
+      "subjectCode": "CS301",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1055",
+      "subjectCode": "EXTC304",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1055",
+      "subjectCode": "CS302",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1056",
+      "subjectCode": "EXTC305",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1056",
+      "subjectCode": "CE303",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1057",
+      "subjectCode": "EXTC304",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1057",
+      "subjectCode": "EXTC305",
+      "date": "2026-04-15",
+      "status": "ABSENT"
+    },
+    {
+      "studentId": "STU-1058",
+      "subjectCode": "EXTC304",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1058",
+      "subjectCode": "CS301",
+      "date": "2026-04-15",
+      "status": "ABSENT"
+    },
+    {
+      "studentId": "STU-1059",
+      "subjectCode": "EXTC304",
+      "date": "2026-04-15",
+      "status": "ABSENT"
+    },
+    {
+      "studentId": "STU-1059",
+      "subjectCode": "CE303",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1060",
+      "subjectCode": "CE303",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1060",
+      "subjectCode": "EXTC304",
+      "date": "2026-04-15",
+      "status": "ABSENT"
+    },
+    {
+      "studentId": "STU-1061",
+      "subjectCode": "CS302",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1061",
+      "subjectCode": "CE303",
+      "date": "2026-04-15",
+      "status": "ABSENT"
+    },
+    {
+      "studentId": "STU-1062",
+      "subjectCode": "CS302",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1062",
+      "subjectCode": "EXTC304",
+      "date": "2026-04-15",
+      "status": "ABSENT"
+    },
+    {
+      "studentId": "STU-1063",
+      "subjectCode": "EXTC305",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1063",
+      "subjectCode": "CS302",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1064",
+      "subjectCode": "EXTC304",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1064",
+      "subjectCode": "CE303",
+      "date": "2026-04-15",
+      "status": "ABSENT"
+    },
+    {
+      "studentId": "STU-1065",
+      "subjectCode": "CS302",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1065",
+      "subjectCode": "EXTC305",
+      "date": "2026-04-15",
+      "status": "ABSENT"
+    },
+    {
+      "studentId": "STU-1066",
+      "subjectCode": "CS302",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1066",
+      "subjectCode": "CE303",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1067",
+      "subjectCode": "CS302",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1067",
+      "subjectCode": "CS301",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1068",
+      "subjectCode": "CE303",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1068",
+      "subjectCode": "EXTC305",
+      "date": "2026-04-15",
+      "status": "ABSENT"
+    },
+    {
+      "studentId": "STU-1069",
+      "subjectCode": "EXTC304",
+      "date": "2026-04-15",
+      "status": "ABSENT"
+    },
+    {
+      "studentId": "STU-1069",
+      "subjectCode": "EXTC305",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1070",
+      "subjectCode": "CE303",
+      "date": "2026-04-15",
+      "status": "ABSENT"
+    },
+    {
+      "studentId": "STU-1070",
+      "subjectCode": "CS301",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1071",
+      "subjectCode": "CS301",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1071",
+      "subjectCode": "CS302",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1072",
+      "subjectCode": "CE303",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1072",
+      "subjectCode": "CS301",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1073",
+      "subjectCode": "CE303",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1073",
+      "subjectCode": "CS302",
+      "date": "2026-04-15",
+      "status": "ABSENT"
+    },
+    {
+      "studentId": "STU-1074",
+      "subjectCode": "CS302",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1074",
+      "subjectCode": "EXTC305",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1075",
+      "subjectCode": "CS301",
+      "date": "2026-04-15",
+      "status": "ABSENT"
+    },
+    {
+      "studentId": "STU-1075",
+      "subjectCode": "CE303",
+      "date": "2026-04-15",
+      "status": "ABSENT"
+    },
+    {
+      "studentId": "STU-1076",
+      "subjectCode": "EXTC304",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1076",
+      "subjectCode": "CE303",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1077",
+      "subjectCode": "EXTC304",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1077",
+      "subjectCode": "CS302",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1078",
+      "subjectCode": "CS301",
+      "date": "2026-04-15",
+      "status": "ABSENT"
+    },
+    {
+      "studentId": "STU-1078",
+      "subjectCode": "CS302",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1079",
+      "subjectCode": "CS302",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1079",
+      "subjectCode": "EXTC304",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1080",
+      "subjectCode": "CE303",
+      "date": "2026-04-15",
+      "status": "ABSENT"
+    },
+    {
+      "studentId": "STU-1080",
+      "subjectCode": "EXTC305",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1081",
+      "subjectCode": "CE303",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1081",
+      "subjectCode": "EXTC304",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1082",
+      "subjectCode": "CS301",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1082",
+      "subjectCode": "EXTC304",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1083",
+      "subjectCode": "CS302",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1083",
+      "subjectCode": "EXTC304",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1084",
+      "subjectCode": "CS302",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1084",
+      "subjectCode": "EXTC304",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1085",
+      "subjectCode": "EXTC305",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1085",
+      "subjectCode": "EXTC304",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1086",
+      "subjectCode": "CS301",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1086",
+      "subjectCode": "CE303",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1087",
+      "subjectCode": "CE303",
+      "date": "2026-04-15",
+      "status": "ABSENT"
+    },
+    {
+      "studentId": "STU-1087",
+      "subjectCode": "CS301",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1088",
+      "subjectCode": "EXTC305",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1088",
+      "subjectCode": "CS301",
+      "date": "2026-04-15",
+      "status": "ABSENT"
+    },
+    {
+      "studentId": "STU-1089",
+      "subjectCode": "CS302",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1089",
+      "subjectCode": "CE303",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1090",
+      "subjectCode": "EXTC304",
+      "date": "2026-04-15",
+      "status": "ABSENT"
+    },
+    {
+      "studentId": "STU-1090",
+      "subjectCode": "EXTC305",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1091",
+      "subjectCode": "CE303",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1091",
+      "subjectCode": "EXTC304",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1092",
+      "subjectCode": "EXTC305",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1092",
+      "subjectCode": "CS301",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1093",
+      "subjectCode": "CE303",
+      "date": "2026-04-15",
+      "status": "ABSENT"
+    },
+    {
+      "studentId": "STU-1093",
+      "subjectCode": "EXTC304",
+      "date": "2026-04-15",
+      "status": "ABSENT"
+    },
+    {
+      "studentId": "STU-1094",
+      "subjectCode": "CE303",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1094",
+      "subjectCode": "EXTC305",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1095",
+      "subjectCode": "CS302",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1095",
+      "subjectCode": "CE303",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1096",
+      "subjectCode": "EXTC304",
+      "date": "2026-04-15",
+      "status": "ABSENT"
+    },
+    {
+      "studentId": "STU-1096",
+      "subjectCode": "CS301",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1097",
+      "subjectCode": "CE303",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1097",
+      "subjectCode": "CS301",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1098",
+      "subjectCode": "EXTC304",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1098",
+      "subjectCode": "EXTC305",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1099",
+      "subjectCode": "EXTC305",
+      "date": "2026-04-15",
+      "status": "PRESENT"
+    },
+    {
+      "studentId": "STU-1099",
+      "subjectCode": "CE303",
+      "date": "2026-04-15",
+      "status": "ABSENT"
+    },
+    {
+      "studentId": "STU-1100",
+      "subjectCode": "CE303",
+      "date": "2026-04-15",
+      "status": "ABSENT"
+    },
+    {
+      "studentId": "STU-1100",
+      "subjectCode": "CS301",
+      "date": "2026-04-15",
+      "status": "ABSENT"
+    }
+  ]
+}

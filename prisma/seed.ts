@@ -155,7 +155,7 @@ const defaultTerm = {
 const loadSeedData = (): SeedData | null => {
   const seedPath =
     process.env.SEED_DATA_PATH ??
-    path.join(process.cwd(), "prisma", "custom-seed.json");
+    path.join(process.cwd(), "data", "student_data.json");
 
   if (!fs.existsSync(seedPath)) {
     return null;
