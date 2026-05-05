@@ -153,15 +153,23 @@ const defaultTerm = {
 };
 
 const loadSeedData = (): SeedData | null => {
-  const seedPath =
-    process.env.SEED_DATA_PATH ??
-    path.join(process.cwd(), "data", "student_data.json");
+  const candidatePaths = [
+    process.env.SEED_DATA_PATH,
+    path.join(process.cwd(), "data", "student_data.json"),
+    path.join(process.cwd(), "prisma", "custom-seed.json"),
+  ].filter((value): value is string => Boolean(value));
 
-  if (!fs.existsSync(seedPath)) {
+  const seedPath = candidatePaths.find((candidate) => fs.existsSync(candidate));
+
+  if (!seedPath) {
+    console.warn(
+      `No custom seed file found. Checked: ${candidatePaths.join(", ")}. Falling back to sample seed data.`
+    );
     return null;
   }
 
   const raw = fs.readFileSync(seedPath, "utf-8");
+  console.log(`Loaded custom seed data from: ${seedPath}`);
   return JSON.parse(raw) as SeedData;
 };
 
