@@ -21,11 +21,11 @@ services:
     ports:
       - "3000:3000"
     environment:
-      DATABASE_URL: "postgresql://edupulse:edupulse@db:5432/edupulse?schema=public"
-      NEXTAUTH_URL: "http://localhost:3000"
-      NEXTAUTH_SECRET: "replace-with-a-secure-random-string"
-      ATTENDANCE_LOW_THRESHOLD: "75"
-      GPA_SCALE: "90:4.0:A,85:3.7:A-,80:3.3:B+,75:3.0:B,70:2.7:B-,65:2.3:C+,60:2.0:C,50:1.0:D,0:0:F"
+      DATABASE_URL: "${DATABASE_URL:-postgresql://edupulse:edupulse@db:5432/edupulse?schema=public}"
+      NEXTAUTH_URL: "${NEXTAUTH_URL:-http://localhost:3000}"
+      NEXTAUTH_SECRET: "${NEXTAUTH_SECRET:-replace-with-a-secure-random-string}"
+      ATTENDANCE_LOW_THRESHOLD: "${ATTENDANCE_LOW_THRESHOLD:-75}"
+      GPA_SCALE: "${GPA_SCALE:-90:4.0:A,85:3.7:A-,80:3.3:B+,75:3.0:B,70:2.7:B-,65:2.3:C+,60:2.0:C,50:1.0:D,0:0:F}"
 
   sonar-db:
     image: postgres:16
