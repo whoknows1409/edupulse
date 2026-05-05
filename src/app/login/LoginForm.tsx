@@ -1,7 +1,7 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import { signIn } from "next-auth/react";
+import { getSession, signIn } from "next-auth/react";
 import { useState, useTransition } from "react";
 
 export const LoginForm = () => {
@@ -30,7 +30,11 @@ export const LoginForm = () => {
         return;
       }
 
-      router.push(response?.url ?? "/dashboard");
+      const session = await getSession();
+      const role = session?.user?.role;
+      const destination =
+        role === "ADMIN" ? "/admin" : role === "STUDENT" ? "/student" : "/dashboard";
+      router.replace(destination);
     });
   };
 
