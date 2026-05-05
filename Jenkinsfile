@@ -2,6 +2,7 @@ pipeline {
   agent any
 
   environment {
+    DATABASE_URL = "postgresql://edupulse:edupulse@localhost:5432/edupulse?schema=public"
     SONAR_HOST_URL = "http://sonarqube:9000"
   }
 
