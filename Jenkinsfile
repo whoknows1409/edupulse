@@ -25,7 +25,7 @@ pipeline {
     stage("Lint") {
       steps {
         dir(env.WORKSPACE) {
-          sh "npx next lint --dir src"
+          sh "npm run lint"
         }
       }
     }
